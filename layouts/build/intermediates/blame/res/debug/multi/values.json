@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "/Users/ankitbhargava/Downloads/GrabMovieInfo2/layouts/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1346,
+                    "endColumn": 58,
+                    "endOffset": 1400
+                },
+                "from": {
+                    "file": "/Users/ankitbhargava/Downloads/GrabMovieInfo2/layouts/build/intermediates/exploded-aar/GrabMovieInfo2/core/unspecified/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 242,
+                        "endColumn": 58,
+                        "endOffset": 296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1405,
+                    "endColumn": 62,
+                    "endOffset": 1463
+                },
+                "from": {
+                    "file": "/Users/ankitbhargava/Downloads/GrabMovieInfo2/layouts/build/intermediates/exploded-aar/GrabMovieInfo2/core/unspecified/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 301,
+                        "endColumn": 62,
+                        "endOffset": 359
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/ankitbhargava/Downloads/twoway-view-master/layouts/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1346,
+                    "endColumn": 58,
+                    "endOffset": 1400
+                },
+                "from": {
+                    "file": "/Users/ankitbhargava/Downloads/twoway-view-master/layouts/build/intermediates/exploded-aar/twoway-view-master/core/unspecified/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 242,
+                        "endColumn": 58,
+                        "endOffset": 296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1405,
+                    "endColumn": 62,
+                    "endOffset": 1463
+                },
+                "from": {
+                    "file": "/Users/ankitbhargava/Downloads/twoway-view-master/layouts/build/intermediates/exploded-aar/twoway-view-master/core/unspecified/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 301,
+                        "endColumn": 62,
+                        "endOffset": 359
+                    }
+                }
+            }
+        ]
+    }
+]

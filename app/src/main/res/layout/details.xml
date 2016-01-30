@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/topLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/topLinearLayout">
+
+        <ImageView
+                android:id="@+id/imageview_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop" />
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relatievLayout">
+
+            <!-- Poster Thumbnail -->
+            <ImageView
+                android:id="@+id/PosterImage"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="5dp"
+
+                android:scaleType="centerCrop" />
+
+
+            <!-- Movie Title -->
+            <TextView
+                android:id="@+id/textView_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/PosterImage"
+                android:layout_toRightOf="@id/PosterImage"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:paddingLeft="5dp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Videos" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/videoLayout">
+
+            <org.lucasr.twowayview.widget.TwoWayView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/VideoList"
+                style="@style/TwoWayView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawSelectorOnTop="false"
+                tools:context=".MainActivity"
+                app:twowayview_layoutManager="ListLayoutManager"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Similar Movies"
+            android:id="@+id/textView" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/similarLayout">
+
+            <org.lucasr.twowayview.widget.TwoWayView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/LikeList"
+                style="@style/TwoWayView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawSelectorOnTop="false"
+                tools:context=".MainActivity"
+                app:twowayview_layoutManager="ListLayoutManager"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/infoText"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text=""
+             />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_input_add" />
+
+</FrameLayout>

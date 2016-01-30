@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "/Users/ankitbhargava/Downloads/GrabMovieInfo2/core/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 242,
+                    "endColumn": 58,
+                    "endOffset": 296
+                },
+                "from": {
+                    "file": "/Users/ankitbhargava/Downloads/GrabMovieInfo2/core/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 652,
+                        "endColumn": 58,
+                        "endOffset": 706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 301,
+                    "endColumn": 62,
+                    "endOffset": 359
+                },
+                "from": {
+                    "file": "/Users/ankitbhargava/Downloads/GrabMovieInfo2/core/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 711,
+                        "endColumn": 62,
+                        "endOffset": 769
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/ankitbhargava/Downloads/twoway-view-master/core/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 242,
+                    "endColumn": 58,
+                    "endOffset": 296
+                },
+                "from": {
+                    "file": "/Users/ankitbhargava/Downloads/twoway-view-master/core/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 652,
+                        "endColumn": 58,
+                        "endOffset": 706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 301,
+                    "endColumn": 62,
+                    "endOffset": 359
+                },
+                "from": {
+                    "file": "/Users/ankitbhargava/Downloads/twoway-view-master/core/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 711,
+                        "endColumn": 62,
+                        "endOffset": 769
+                    }
+                }
+            }
+        ]
+    }
+]
